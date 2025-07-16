@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  productivity-app:
+    build: .
+    ports:
+      - "0.0.0.0:3000:80"
+    restart: unless-stopped
+    container_name: productivity-hub
