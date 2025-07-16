@@ -30,8 +30,8 @@ A minimal, clean productivity application built with React and Docker. Features 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd productivity-hub
+git clone https://github.com/rdbishal30/productivity-app.git
+cd productivity-app
 
 # Install dependencies
 npm install
